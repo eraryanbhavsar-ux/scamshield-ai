@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: scamshield-ai
+    runtime: docker
+    healthCheckPath: /
+    envVars:
